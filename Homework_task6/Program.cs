@@ -5,7 +5,7 @@
 //-3 -> нет
 //7 -> нет
 
-Console.WriteLine("Определить, является ли число четным!");
+Console.WriteLine("Определить, является ли число четным?");
 Console.Write("Введите число - ");
 double a = Convert.ToDouble(Console.ReadLine());
 
@@ -14,12 +14,15 @@ double c = b % 1;
 
 if (c == 0)
 {
+    Console.WriteLine();
     Console.WriteLine("Ответ:");
-    Console.WriteLine($"Число {a} - является четным");
+    Console.WriteLine($"Число {a} - является четным;");
 }
 else
 {
+    Console.WriteLine();
     Console.WriteLine("Ответ:");
-    Console.WriteLine($"Число {a} - не является четным");
+    Console.WriteLine($"Число {a} - не является четным;");
 }
-Console.Write("Прграмма завершена");
+Console.WriteLine();
+Console.Write("Прграмма завершена!");
