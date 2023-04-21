@@ -7,10 +7,10 @@
 
 Console.WriteLine("Определить, является ли число четным!");
 Console.Write("Введите число - ");
-int a = Convert.ToInt32(Console.ReadLine());
+double a = Convert.ToDouble(Console.ReadLine());
 
-int b = a / 2;
-int c = b % 1;
+double b = a / 2;
+double c = b % 1;
 
 if (c == 0)
 {
