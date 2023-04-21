@@ -5,6 +5,8 @@
 //44 5 78 -> 78
 //22 3 9 -> 22
 
+Console.WriteLine("Найти максимальное число из трех?");
+Console.WriteLine();
 Console.Write("Введите число a - ");
 int a = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите число b - ");
@@ -20,32 +22,39 @@ Console.WriteLine(c);
 
 if (a > b && a > c)
 {
+    Console.WriteLine();
     Console.WriteLine("ОТВЕТ:");
-    Console.WriteLine($"Максимальное число = {a}");
+    Console.WriteLine($"Максимальное число = {a};");
 }
 if (a < b && b > c)
 {
+    Console.WriteLine();
     Console.WriteLine("ОТВЕТ:");
-    Console.WriteLine($"Максимальное число = {b}");
+    Console.WriteLine($"Максимальное число = {b};");
 }
 if (c > b && a < c)
 {
+    Console.WriteLine();
     Console.WriteLine("ОТВЕТ:");
-    Console.WriteLine($"Максимальное число = {c}");
+    Console.WriteLine($"Максимальное число = {c};");
 }
 if (a == b && a > c)
 {
+    Console.WriteLine();
     Console.WriteLine("ОТВЕТ:");
-    Console.WriteLine($"Максимальное число = {a}");
+    Console.WriteLine($"Максимальное число = {a};");
 }
 if (a == c && a > b)
 {
+    Console.WriteLine();
     Console.WriteLine("ОТВЕТ:");
-    Console.WriteLine($"Максимальное число = {a}");
+    Console.WriteLine($"Максимальное число = {a};");
 }
 if (c == b && a < c)
 {
+    Console.WriteLine();
     Console.WriteLine("ОТВЕТ:");
-    Console.WriteLine($"Максимальное число = {c}");
+    Console.WriteLine($"Максимальное число = {c};");
 }
+Console.WriteLine();
 Console.Write("Программа завершена!");
