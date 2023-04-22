@@ -6,6 +6,7 @@
 //a = -9 b = -3 -> max = -3
 
 Console.WriteLine("Определить какое число больше из двух!");
+Console.WriteLine();
 Console.Write("Введите число a - ");
 int a = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите число b - ");
