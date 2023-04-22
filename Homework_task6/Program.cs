@@ -6,6 +6,7 @@
 //7 -> нет
 
 Console.WriteLine("Определить, является ли число четным?");
+Console.WriteLine();
 Console.Write("Введите число - ");
 double a = Convert.ToDouble(Console.ReadLine());
 
